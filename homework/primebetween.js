@@ -1,23 +1,34 @@
-function isPrime(n)
+function between(a,b)
 {
-    for (var i = 2; i < n ** 0.5; ++i)
+    for(var n = a ; n < b ; n++)
+
+    if (isPrime(n))
     {
-        if (n % i == 0)
-        {
-            return 0;
-        }
+        console.log(n)
     }
-    return 1;
+}
+   
+function isPrime(n){
+    
+    if(n < 2)
+    {
+        return false
+    }
+
+    if(n == 2)
+    {
+        return true
+    }
+
+
+    for (var i = 2 ; i < n ; i++)
+    {
+        if(n % i == 0)
+        {
+            return false
+        }
+        return true
+    }
 }
 
-function primebetween(a, b)
-{
-    var primes = [];
-    for (var i = a; i != b; ++i)
-    {
-        if (isPrime(i))
-            primes.push(i);
-    }
-    console.log(primes);
-}
-primebetween(7, 29);
+between(1,15)

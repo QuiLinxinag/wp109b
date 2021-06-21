@@ -1,34 +1,7 @@
-function between(a,b)
+function between(n,m)
 {
-    for(var n = a ; n < b ; n++)
-
-    if (isPrime(n))
-    {
-        console.log(n)
-    }
-}
-   
-function isPrime(n){
-    
-    if(n < 2)
-    {
-        return false
-    }
-
-    if(n == 2)
-    {
-        return true
-    }
-
-
-    for (var i = 2 ; i < n ; i++)
-    {
-        if(n % i == 0)
-        {
-            return false
-        }
-        return true
-    }
+    for (var i = n; i <= m; ++i)
+        console.log(i);
 }
 
-between(1,15)
+between(2,7);
