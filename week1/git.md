@@ -21,7 +21,7 @@ $ git clone https://github.com/xxxxxxx/xxx.git
 
 $ cd xxx  註: 切換到 clone 的資料夾 xxx 當中
 ... 接著加入一些新檔案，或者修改某些檔案後 ...
-```md
+```
 ## 將專案推回
 ```md
 $ git add -A
