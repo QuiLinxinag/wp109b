@@ -4,4 +4,4 @@
 因為是邊學邊做因此並沒有修改程式碼
 教學網站上交的比較詳細因此直接丟連結
 
-[教學網站](https://developer.mozilla.org/zh-TW/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)  有中文翻譯
+[教學網站](https://developer.mozilla.org/zh-TW/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)  有中文翻譯 
